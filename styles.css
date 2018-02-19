@@ -1,0 +1,99 @@
+body {
+  /* background-image: url("./header-bg.jpg"); */
+  overflow-x: hidden;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  height: 300vh;
+  /* z-index: 1; */
+}
+img {
+  /* z-index: 0; */
+}
+#startBoot {
+  width: 50vw;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: #fed136;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+.navWrapper {
+  display: inline-flex;
+  background: #212529;
+  position: fixed;
+  background: transparent;
+}
+.nav {
+  width: 100vw;
+  margin: 0 auto;
+  margin-right: 150px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  color: #fed136;
+}
+.dropdown {
+  display: none;
+  background-color: #fed136;
+}
+.dropdown-menu {
+  padding: 0px;
+}
+.btn {
+  background-color: #fed136;
+  position: fixed;
+  right: 5px;
+}
+.btn:hover {
+  background-color: #fed136;
+  opacity: 0.5;
+}
+.dropdown-item {
+  background-color: #212529;
+  width: 100vw;
+  color: white;
+  border: none;
+  margin: none;
+  padding: 15px;
+}
+.dropdown-item:hover {
+  background-color: #212529;
+  width: 100vw;
+  background-color: #212529;
+  color: #fed136;
+  opacity: 0.95;
+}
+h1 {
+  display: absolute;
+  margin: 0 auto;
+}
+h2 {
+}
+
+@media screen and (max-width: 1100px) {
+  #startBoot {
+    width: 40vw;
+    text-align: left;
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .nav-link {
+    display: none;
+  }
+  .dropdown {
+    display: flex;
+    background-color: #fed136;
+  }
+  .navWrapper {
+    background: none;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #212529;
+  }
+}
