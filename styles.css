@@ -69,7 +69,6 @@ img {
 }
 h1 {
   display: absolute;
-  margin: 0 auto;
 }
 h2 {
 }
@@ -95,5 +94,13 @@ h2 {
     padding-top: 0;
     padding-bottom: 0;
     background-color: #212529;
+  }
+  .nav {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  #startBoot {
+    padding-top: 12px;
+    padding-bottom: 12px;
   }
 }
